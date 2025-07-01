@@ -1,0 +1,78 @@
+body{
+	margin: 10%;
+	background-color: grey;
+}        
+form, h2
+{
+	background-color: bisque;
+}
+
+form.elegante input  
+{ 
+	padding: .2em; 
+	
+}   
+.btn  
+{ 
+	display: block; 
+	margin: 1em 0; 
+}   
+
+div  
+{ 
+	margin: .8em 0; 
+} 
+
+input:focus  
+{ 
+	border: 2px solid #000; 
+	background: #F3F3F3; 
+} 
+.btn_link  
+{ 
+	border: 0; 
+	padding: 0; 
+	background-color: transparent; 
+	color: blue; 
+	border-bottom: 1px solid blue; 
+} 
+
+
+.delete
+{
+	/*background:url(../img/delete.png);*/
+}
+
+.delete:hover 
+{
+	background-image:url(../img/delete-hover.png);
+}
+
+a.delete {
+	/*display: block;
+    border: 0 none;*/
+    cursor: pointer;
+    height: 16px;
+	width: 16px;
+	position: relative;
+	left: 80px;
+	bottom: 20px;
+	z-index: 10;
+    /*margin: 6px 2px 0 0;*/
+}
+
+    .botonimagen{
+      background-image:url(../img/delete.png);
+      background-repeat:no-repeat;
+      height:16px;
+      width:16px;
+      background-position:center;
+    }
+	
+	    .botonModificar{
+      background-image:url(../img/lapiz.png);
+      background-repeat:no-repeat;
+      height:16px;
+      width:16px;
+      background-position:center;
+    }

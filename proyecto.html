@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>PROYECTO 2 TRIMESTRE</title>
+    <link rel="stylesheet" href="css/estilos.css">
+	<script src="scripts/lanzamiento.js"></script>
+</head>
+<body>
+		<h2>PROYECTO 2 TRIMESTRE</h2>
+        <form action="#" name="miFormulario" class="elegante">
+			<fieldset>
+				<legend>Datos a Introducir</legend>
+                <div>				
+                    <label>Tabla Multiplicar(Del 1 al 10):
+						<input type="text" name="tabla" id="tabla">
+					</label>
+                </div>
+                <div>				
+                    <label>Cantidad Filas(Del 1 al 10):
+						<input type="text" name="filas" id="filas">
+					</label>
+                </div>
+				<div>
+    				<label>EDITABLE<input type="radio" name="editable" id="editable_si" value="SI"></label>
+    				<label>NO EDITABLE<input type="radio" name="editable" id="editable_no" value="NO"></label>
+    				<br>
+				</div>
+                <div>
+				    <label>Elige un método:
+				    <select name="metodo" id="metodo">
+						<option value="" selected></option>
+						<option value="section">Párrafos</option>
+						<option value="ul">Lista Desordenada</option>
+						<option value="ol">Lista Ordenada</option>
+						<option value="table">Tabla</option>
+						<option value="select">Desplegable</option>
+					</select>
+					</label>
+                </div>
+
+				<input name="btn_lanzar" class="btn" type="submit" value="LANZAR">
+				<input style="display:none" name="btn_reset" class="btn" type="button" value="RESETEAR">
+			</fieldset>
+			<fieldset>			
+				<legend>Respuesta</legend>
+                <div id="respuesta">
+				</div>
+			</fieldset>
+		</form>
+</body>
+</html>
